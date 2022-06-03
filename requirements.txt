@@ -1,6 +1,6 @@
 keras
 numpy
 opencv-python-headless
-streamlit==1.7
+streamlit
 streamlit_webrtc
 tensorflow
