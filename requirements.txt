@@ -1,6 +1,7 @@
 keras==2.9.0
-numpy==1.22.4
+numpy=<320>=1.22.4
 opencv-python-headless==4.5.5.64
 streamlit==1.10.0
 streamlit_webrtc==0.37.0
 tensorflow==2.9.1
+protobuf<3.20>==3.9.2
