@@ -4,3 +4,4 @@ opencv-python-headless
 streamlit
 streamlit_webrtc
 tensorflow
+protobuf=3.9.2
