@@ -72,5 +72,6 @@ class VideoTransformer(VideoTransformerBase):
                 cv2.putText(frame,'No Faces',(30,80),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2)
         return frame
 
-webrtc_streamer(key="example", video_processor_factory=VideoTransformer)
+webrtc_streamer(key="example")
+#video_processor_factory=VideoTransformer
 
