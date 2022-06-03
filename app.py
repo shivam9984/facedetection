@@ -33,7 +33,7 @@ class VideoTransformer(VideoTransformerBase):
     def __init__(self):
         self.i = 0
 
-    def transform(self, frame):
+    def recv(self, frame):
         img = frame.to_ndarray(format="bgr24")
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         # faces = faceCascade.detectMultiScale(gray, 1.3, 5)
