@@ -4,5 +4,4 @@ opencv-python-headless
 streamlit
 streamlit_webrtc
 tensorflow
-pip install --upgrade pip
-pip install 'protobuf~=3.9.2'
+protobuf~=3.9.2
