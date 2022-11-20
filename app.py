@@ -3,7 +3,7 @@ import cv2
 import streamlit as st
 from tensorflow import keras
 from keras.models import model_from_json
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.utils import img_to_array
 from keras.models import load_model
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, RTCConfiguration, VideoProcessorBase, WebRtcMode
 
