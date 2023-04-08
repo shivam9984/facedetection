@@ -77,7 +77,7 @@ def main():
         st.header("Webcam Live Feed")
         st.write("Click on start to use webcam and detect your face emotion")
         webrtc_streamer(key="example", mode=WebRtcMode.SENDRECV, rtc_configuration=RTC_CONFIGURATION,
-                        video_processor_factory=Faceemotion, media_stream_constraints={"video": True, "audio": False},
+                        video_frame_callback=Faceemotion, media_stream_constraints={"video": True, "audio": False},
         async_processing=True)
 
     elif choice == "About":
