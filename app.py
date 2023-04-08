@@ -5,7 +5,7 @@ from tensorflow import keras
 from keras.models import model_from_json
 from tensorflow.keras.utils import img_to_array
 from keras.models import load_model
-from streamlit_webrtc import webrtc_streamer, RTCConfiguration, WebRtcMode
+from streamlit_webrtc import webrtc_streamer,VideoTransformerBase, VideoProcessorBase, RTCConfiguration, WebRtcMode
 
 # load model
 # emotion_dict = {0:'angry', 1 :'happy', 2: 'neutral', 3:'sad', 4: 'surprise'}
